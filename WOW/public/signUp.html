@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>WOW UBON &ndash; Premium Products From Ubon</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+  <div class="navbar-fixed">
+     <nav class="white" role="navigation">
+       <div class="nav-wrapper container">
+         <a href="#"> <img id="brandlogo"  src="images/logo.jpg"  alt="Paris"></a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href="sass.html">Our Story</a></li>
+           <li><a class="dropdown-trigger" href="#!" data-target="dropdownTT">Our products<i class="material-icons right">arrow_drop_down</i></a></li>
+           <li><a href="collapsible.html">Contact us</a></li>
+           <li><a href="#" onclick="document.getElementById('modal-wrapper').style.display='block'">Log in<i class="material-icons right">account_circle</i></a></li>
+
+         </ul>
+       <ul id="nav-mobile" class="sidenav">
+         <li><a href="#">Navbar Link</a></li>
+       </ul>
+
+
+       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     </div>
+   </nav>
+ </div>
+   <div id="modal-wrapper" class="modal">
+
+     <form class="modal-content animate" action="/action_page.php">
+
+       <div class="imgcontainer">
+         <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+         <img src="images/logo.jpg" alt="Avatar" class="avatar">
+         <h1 style="text-align:center">Modal Popup Box</h1>
+       </div>
+
+       <div class="container">
+         <input type="text" placeholder="Enter Username" name="uname">
+         <input type="password" placeholder="Enter Password" name="psw">
+         <button type="submit">Login</button>
+         <input type="checkbox" style="margin:26px 30px;"> Remember me
+         <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+       </div>
+
+     </form>
+
+   </div>
+
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="js/materialize.js"></script>
+   <script src="js/init.js"></script>
+
+  </body>
+</html>

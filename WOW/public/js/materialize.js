@@ -4110,7 +4110,8 @@ $jscomp.polyfill = function (e, r, p, m) {
         this.$activeTabLink.addClass('active');
         var prevIndex = this.index;
         this.index = Math.max(this.$tabLinks.index(tabLink), 0);
-
+        //dropdown
+      
         // Swap content
         if (this.options.swipeable) {
           if (this._tabsCarousel) {

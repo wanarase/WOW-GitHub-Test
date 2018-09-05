@@ -73,3 +73,11 @@
    vertical-align: middle;
    text-align: center;
 }
+.home {
+  image-resolution: 10%;
+
+}
+#brandlogo {
+  max-width: 5%;
+  max-height:auto;
+}
